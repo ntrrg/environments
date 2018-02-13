@@ -3,7 +3,7 @@
 [![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/ntrrg/ntenvs/releases/tag/0.1.0)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ntrrg/ntenvs/raw/master/LICENSE)
 [![Build Status](https://travis-ci.org/ntrrg/ntenvs.svg?branch=master)](https://travis-ci.org/ntrrg/ntenvs)
-[![Codacy Badge](https://api.codacy.com/project/badge/Grade/8901636482ef4ffbbb1f9771cabfe2a1)](https://www.codacy.com/app/ntrrg/ntenvs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ntrrg/ntenvs&amp;utm_campaign=Badge_Grade)
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/0c4d0af32a7f4ebcb13c066a606b4d22)](https://www.codacy.com/app/ntrrg/ntenvs?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=ntrrg/ntenvs&amp;utm_campaign=Badge_Grade)
 [![BCH compliance](https://bettercodehub.com/edge/badge/ntrrg/ntenvs?branch=master)](https://bettercodehub.com/results/ntrrg/ntenvs)
 [![CII Best Practices](https://bestpractices.coreinfrastructure.org/projects/1644/badge)](https://bestpractices.coreinfrastructure.org/projects/1644)
 
