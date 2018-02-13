@@ -1,5 +1,6 @@
 # NtEnvs
 
+[![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/ntrrg/ntenvs/releases/tag/0.1.0)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/ntrrg/ntenvs/raw/master/LICENSE)
 [![Build Status](https://travis-ci.org/ntrrg/ntenvs.svg?branch=master)](https://travis-ci.org/ntrrg/ntenvs)
 [![BCH compliance](https://bettercodehub.com/edge/badge/ntrrg/ntenvs?branch=master)](https://bettercodehub.com/)
