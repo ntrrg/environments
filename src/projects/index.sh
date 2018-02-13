@@ -44,5 +44,8 @@ Options:
     Shows this help text and exit.
 
 Subcommands:
+
+  rest, r
+    $(ntenvs_projects_rest --description)
 EOF
 }

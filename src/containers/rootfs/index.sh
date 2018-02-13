@@ -68,5 +68,23 @@ Options:
     Shows this help text and exit.
 
 Subcommands:
+
+  clone, cl
+    $(ntenvs_containers_rootfs_clone --description)
+
+  create, c
+    $(ntenvs_containers_rootfs_create --description)
+
+  delete, del, d
+    $(ntenvs_containers_rootfs_delete --description)
+
+  export, exp, e
+    $(ntenvs_containers_rootfs_export --description)
+
+  import, imp, i
+    $(ntenvs_containers_rootfs_import --description)
+
+  list, ls, l
+    $(ntenvs_containers_rootfs_list --description)
 EOF
 }

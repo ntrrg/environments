@@ -56,6 +56,9 @@ Subcommands:
   disk-image, disk-img, dimg, di, d
     $(ntenvs_containers_disk_image --description)
 
+  oci-image, oci, o
+    $(ntenvs_containers_oci_image --description)
+
   rootfs, rfs, r
     $(ntenvs_containers_rootfs --description)
 EOF

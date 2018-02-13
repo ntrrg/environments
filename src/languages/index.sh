@@ -44,5 +44,8 @@ Options:
     Shows this help text and exit.
 
 Subcommands:
+
+  nodejs, node, n
+    $(ntenvs_languages_nodejs --description)
 EOF
 }

@@ -32,8 +32,8 @@ $(ntenvs_version)
 
 $(ntenvs_containers_disk_image --description)
 
-Usage: ntenvs containers disk_image [<options...>]
-Usage: ntenvs containers disk_image <subcommand> [<options...>]
+Usage: ntenvs containers disk-image [<options...>]
+Usage: ntenvs containers disk-image <subcommand> [<options...>]
 
 Options:
 
@@ -44,5 +44,23 @@ Options:
     Shows this help text and exit.
 
 Subcommands:
+
+  clone, cl
+    $(ntenvs_containers_disk_image_clone --description)
+
+  create, c
+    $(ntenvs_containers_disk_image_create --description)
+
+  delete, del, d
+    $(ntenvs_containers_disk_image_delete --description)
+
+  export, exp, e
+    $(ntenvs_containers_disk_image_export --description)
+
+  import, imp, i
+    $(ntenvs_containers_disk_image_import --description)
+
+  list, ls, l
+    $(ntenvs_containers_disk_image_list --description)
 EOF
 }

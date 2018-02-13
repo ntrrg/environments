@@ -44,5 +44,8 @@ Options:
     Shows this help text and exit.
 
 Subcommands:
+
+  use, u
+    $(ntenvs_templates_use --description)
 EOF
 }
