@@ -1,11 +1,9 @@
-component_depth: 1
+component_depth: 4
 languages:
   - name: script
     production:
       include:
         - /src/.*
-      exclude:
-        - /test/.*
     test:
       include:
         - /test/.*
