@@ -1,5 +1,6 @@
-# NtEnvs https://github.com/ntrrg/ntenvs
-# Copyright (c) 2018 Miguel Angel Rivera Notararigo
+# File: Alpine RootFS container creation script (src/containers/rootfs/scripts/alpine.sh)
+# Authors:
+#   * Miguel Angel Rivera Notararigo <ntrrgx@gmail.com>
 
 ntenvs_containers_alpine() {
   if [ "${USER}" != "root" ]; then

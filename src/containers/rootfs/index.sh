@@ -1,6 +1,3 @@
-# NtEnvs https://github.com/ntrrg/ntenvs
-# Copyright (c) 2018 Miguel Angel Rivera Notararigo
-
 # File: RootFS containers manager entry (src/containers/rootfs/index.sh)
 # Authors:
 #   * Miguel Angel Rivera Notararigo <ntrrgx@gmail.com>

@@ -9,7 +9,7 @@
 
 ---
 
-**WARNING:** This project was created for personal usage and learning purpose, use [other tools](#other-tools) instead, which were written by better developers than me. 😂
+**WARNING:** This project was created for personal usage and learning purpose, use this [other tools](#use-instead) instead, which were written by better developers than me. 😂
 
 ---
 
@@ -25,13 +25,30 @@ I am not trying to say that all this things are bad, actually it is great to kno
 
 P.S. I know that I can't say all this things using high level tools, but in a near future (hopefully), I will try to go at the lowest level that I can.
 
+## Features
+
+## Install
+
 ## Usage
 
-## Other tools
+## Use instead
+
+### Containers
+
+* [buildah](https://github.com/projectatomic/buildah)
 
 ### Programming languages
 
-[virtualenv](https://pypi.python.org/pypi/virtualenv), [nave](https://github.com/isaacs/nave) and [nvm](https://github.com/creationix/nvm).
+#### Node.js
+
+* [nave](https://github.com/isaacs/nave)
+* [nvm](https://github.com/creationix/nvm)
+
+#### Python
+
+* [virtualenv](https://pypi.python.org/pypi/virtualenv)
+
+## Uninstall
 
 ## Acknowledgment
 
@@ -47,13 +64,15 @@ Working on this project I use/used:
 
 * [Terminator](https://gnometerminator.blogspot.com/p/introduction.html)
 
+* [Zsh](http://www.zsh.org/)
+
+* [Git](https://git-scm.com/)
+
 * [EditorConfig](http://editorconfig.org/)
 
 * [GNU make](https://www.gnu.org/software/make/)
 
 * [ShellCheck](https://www.shellcheck.net/)
-
-* [getopt](http://man7.org/linux/man-pages/man3/getopt.3.html)
 
 * [Urchin](https://github.com/tlevine/urchin)
 
@@ -61,14 +80,24 @@ Working on this project I use/used:
 
 * [Travis CI](https://travis-ci.org)
 
-Thanks to [Jakob Borg](https://stackoverflow.com/users/247563/jakob-borg) for posting [a great answer](https://stackoverflow.com/a/2214593) about passing arguments to a Makefile.
+* [Codacy](https://www.codacy.com/)
+
+* [Better Code Hub](https://bettercodehub.com)
+
+* [CII Best Practices](https://bestpractices.coreinfrastructure.org)
 
 **Bash Hackers Wiki.** http://wiki.bash-hackers.org
 
 **Stack Overflow.** *How do I parse command line arguments in Bash?.* https://stackoverflow.com/questions/192249/how-do-i-parse-command-line-arguments-in-bash
 
+Thanks to [Robert Siemer](https://stackoverflow.com/users/825924/robert-siemer) for posting [a great answer](https://stackoverflow.com/a/29754866/6922685) about `getopt`.
+
 **[isaacs](https://github.com/isaacs).** *Makefile.* https://gist.github.com/isaacs/62a2d1825d04437c6f08
 
 **GNU.** *GNU make.* http://www.gnu.org/software/make/manual/make.html
 
-**StackPointer** *Shell Script: Echo to Stderr - Stack Pointer.* https://stackpointer.io/script/shell-script-echo-to-stderr/355/
+**Stack Overflow.** *Passing arguments to "make run"* https://stackoverflow.com/questions/2214575/passing-arguments-to-make-run
+
+Thanks to [Jakob Borg](https://stackoverflow.com/users/247563/jakob-borg) for posting [a great answer](https://stackoverflow.com/a/2214593) about ~something like~ passing arguments to a Makefile.
+
+**StackPointer.** *Shell Script: Echo to Stderr* https://stackpointer.io/script/shell-script-echo-to-stderr/355/

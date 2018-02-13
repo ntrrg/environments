@@ -1,6 +1,3 @@
-# NtEnvs https://github.com/ntrrg/ntenvs
-# Copyright (c) 2018 Miguel Angel Rivera Notararigo
-
 # File: Main CLI entry (src/index.sh)
 # Authors:
 #   * Miguel Angel Rivera Notararigo <ntrrgx@gmail.com>
@@ -36,7 +33,11 @@ ntenvs() {
       ntenvs_languages "$@"
       ;;
 
-    templates | tmpl | t )
+    projects | prj | p )
+      ntenvs_projects "$@"
+      ;;
+
+    templates | t )
       ntenvs_templates "$@"
       ;;
 
@@ -75,6 +76,9 @@ Subcommands:
 
   languages, langs, l
     $(ntenvs_languages --description)
+
+  projects, p
+    $(ntenvs_projects --description)
 
   templates, tmpl, t
     $(ntenvs_templates --description)

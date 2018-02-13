@@ -1,6 +1,3 @@
-# NtEnvs https://github.com/ntrrg/ntenvs
-# Copyright (c) 2018 Miguel Angel Rivera Notararigo
-
 # File: Disk images containers manager entry (src/containers/disk-image/index.sh)
 # Authors:
 #   * Miguel Angel Rivera Notararigo <ntrrgx@gmail.com>
@@ -20,30 +17,6 @@ ntenvs_containers_disk_image() {
 
     -h | --help)
       ntenvs_containers_disk_image_help
-      ;;
-
-    create | c )
-      ntenvs_containers_disk_image_create "$@"
-      ;;
-
-    import | imp | i )
-      ntenvs_containers_disk_image_import "$@"
-      ;;
-
-    list | ls | l )
-      ntenvs_containers_disk_image_list "$@"
-      ;;
-
-    clone | cl )
-      ntenvs_containers_disk_image_clone "$@"
-      ;;
-
-    export | exp | e )
-      ntenvs_containers_disk_image_export "$@"
-      ;;
-
-    delete | del | d )
-      ntenvs_containers_disk_image_delete "$@"
       ;;
 
     * )

@@ -1,7 +1,4 @@
-# NtEnvs https://github.com/ntrrg/ntenvs
-# Copyright (c) 2018 Miguel Angel Rivera Notararigo
-
-# File: Templates manager and scaffolding tool entry (src/templates/index.sh)
+# File: Templates entry (src/templates/index.sh)
 # Authors:
 #   * Miguel Angel Rivera Notararigo <ntrrgx@gmail.com>
 
@@ -15,7 +12,7 @@ ntenvs_templates() {
 
   case "${NTENVS_TEMPLATES_SUBCMD}" in
     --description)
-      echo "Templates manager and scaffolding tool. (Under construction..)"
+      echo "Set of useful templates. (Under construction..)"
       ;;
 
     -h | --help)

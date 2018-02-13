@@ -8,15 +8,15 @@
 [ ] Add support for rootfs containers
 [ ] Add support for disk image containers
 
-## Languages
+## Programming languages
 
 [ ] Add support for Node.js
-[ ] Add support for C
 [ ] Add support for Go
+[ ] Add support for C
 [ ] Add support for Python
 [ ] Add support for PHP
 
-## Templates
+## Projects scaffolding
 
 [ ] Add support for REST API
 [ ] Add support for CLI

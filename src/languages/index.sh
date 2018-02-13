@@ -1,6 +1,3 @@
-# NtEnvs https://github.com/ntrrg/ntenvs
-# Copyright (c) 2018 Miguel Angel Rivera Notararigo
-
 # File: Programming languages manager entry (src/languages/index.sh)
 # Authors:
 #   * Miguel Angel Rivera Notararigo <ntrrgx@gmail.com>
