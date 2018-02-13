@@ -1,0 +1,11 @@
+component_depth: 1
+languages:
+  - name: script
+    production:
+      include:
+        - /src/.*
+      exclude:
+        - /test/.*
+    test:
+      include:
+        - /test/.*

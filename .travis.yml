@@ -1,0 +1,3 @@
+language: bash
+sudo: required
+script: make && sudo make ci
