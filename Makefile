@@ -4,7 +4,7 @@ srcfiles := $(shell find "src/" -iname "*.sh" -type f)
 all: dist/ntenvs
 
 .PHONY: ci
-ci: vendor/shellcheck lint all vendor/urchin test
+ci: lint all test
 
 .PHONY: clean
 clean:
@@ -19,15 +19,15 @@ dev:
 	@busybox watch -n 5 $(MAKE) -s ci
 
 .PHONY: lint
-lint:
+lint: vendor/shellcheck
 	@echo "Linting.."
-	vendor/shellcheck -s sh src/**/*.sh
-	vendor/shellcheck -s sh test/**/*.sh
+	$< -s sh src/**/*.sh
+	$< -s sh test/**/*.sh
 
 .PHONY: test
-test:
+test: vendor/urchin
 	@echo "Testing.."
-	vendor/urchin -s sh -b -p -vv test/"${TEST_TARGET}"
+	$< -s sh -b -p -f -vv "test/${TEST_TARGET}"
 
 dist/ntenvs: $(srcfiles)
 	@echo "Building.."
@@ -37,8 +37,7 @@ dist/ntenvs: $(srcfiles)
 
 vendor/shellcheck:
 	@echo "Downloading shellcheck.."
-	@wget -c 'https://storage.googleapis.com/shellcheck/shellcheck-latest.linux.x86_64.tar.xz' -O /tmp/shellcheck.tar.xz
-	@(cd /tmp && tar -xvf shellcheck.tar.xz)
+	@wget -c 'https://goo.gl/ZzKHFv' -O - | tar -xvJ -C /tmp/
 	@mkdir -p vendor/
 	@cp /tmp/shellcheck-latest/shellcheck $@
 	@chmod +x $@
@@ -47,6 +46,6 @@ vendor/shellcheck:
 vendor/urchin:
 	@echo "Downloading urchin.."
 	@mkdir -p vendor/
-	@wget -c 'https://raw.githubusercontent.com/tlevine/urchin/v0.1.0-rc3/urchin' -O $@
+	@wget -c 'https://goo.gl/kFmJ6t' -O $@
 	@chmod +x $@
 	@echo "Done!"

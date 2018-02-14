@@ -1,5 +1,7 @@
-language: bash
+os: linux
+dist: trusty
+sudo: false
 git:
   depth: 1
-sudo: required
-script: make && sudo make ci
+language: bash
+script: make && make ci
