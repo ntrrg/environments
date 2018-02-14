@@ -1,4 +1,5 @@
 # File: Containers images manager entry (src/containers/index.sh)
+# License: MIT, see LICENSE file for more information.
 # Authors:
 #   * Miguel Angel Rivera Notararigo <ntrrgx@gmail.com>
 

@@ -1,4 +1,5 @@
 # File: RootFS containers manager entry (src/containers/rootfs/index.sh)
+# License: MIT, see LICENSE file for more information.
 # Authors:
 #   * Miguel Angel Rivera Notararigo <ntrrgx@gmail.com>
 

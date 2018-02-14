@@ -1,4 +1,5 @@
 # File: Programming languages manager entry (src/languages/index.sh)
+# License: MIT, see LICENSE file for more information.
 # Authors:
 #   * Miguel Angel Rivera Notararigo <ntrrgx@gmail.com>
 

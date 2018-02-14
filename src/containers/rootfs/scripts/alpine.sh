@@ -1,4 +1,5 @@
 # File: Alpine RootFS container creation script (src/containers/rootfs/scripts/alpine.sh)
+# License: MIT, see LICENSE file for more information.
 # Authors:
 #   * Miguel Angel Rivera Notararigo <ntrrgx@gmail.com>
 

@@ -1,4 +1,5 @@
 # File: Projects scaffolding tool entry (src/projects/index.sh)
+# License: MIT, see LICENSE file for more information.
 # Authors:
 #   * Miguel Angel Rivera Notararigo <ntrrgx@gmail.com>
 
