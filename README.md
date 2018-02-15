@@ -6,7 +6,7 @@
 <p align="center">
   <strong>N</strong>oob
   <strong>t</strong>ools for
-  development <strong>Env</strong>ironments
+  development <strong>Env</strong>ironment<strong>s</strong>
 </p>
 
 [![Version](https://img.shields.io/badge/version-0.1.0-blue.svg)](https://github.com/ntrrg/ntenvs/releases/tag/0.1.0)
@@ -28,13 +28,18 @@ Sometimes, I think that using the existing tools for managing programming langua
 
 * I want to understand at least the 15% of my application source code, but the scaffolding tool from the framework is a better developer than me and I should do what it say, remember, don't reinvent the wheel. 😡
 
-* I try to create my own controlled and isolated environment, but I should do all what the [OCI](https://www.opencontainers.org/)) says, use super complex softwares like [cluster managers](https://en.wikipedia.org/wiki/List_of_cluster_management_software) and [virtual machines managers](https://libvirt.org/apps.html), no matter if I have no idea what happens behind scenes, again, I should not reinvent the wheel. 😡
+* I try to create my own controlled and isolated environment, but I should do all what the [OCI](https://www.opencontainers.org/) says, use super complex softwares like [cluster managers](https://en.wikipedia.org/wiki/List_of_cluster_management_software) and [virtual machines managers](https://libvirt.org/apps.html), no matter if I have no idea what happens behind scenes, again, I should not reinvent the wheel. 😡
 
 I am not trying to say that all this things are bad, actually it is great to know that out there are so many smart people who already solved the problems that I am facing, and even better, they shared the solution; but it doesn't mean that I shouldn't known how they did it. At work or production environments, it is good, saving time and using well tested software is a must do, but if I just want to learn some fundamentals for being a better developer, I think that it is a must don't.
 
 P.S. I know that I can't say all this things using high level tools, but in a near future (hopefully), I will try to go at the lowest level that I can.
 
 ## Features
+
+* Containers images management.
+* Programming languages versions management.
+* Projects scaffolding.
+* Set of useful templates as config file and other files like that.
 
 ## Install
 
@@ -94,6 +99,12 @@ Working on this project I use/used:
 * [Better Code Hub](https://bettercodehub.com)
 
 * [CII Best Practices](https://bestpractices.coreinfrastructure.org)
+
+* [Inkscape](https://inkscape.org/en/)
+
+* [GIMP](https://www.gimp.org/)
+
+* [Flickr](https://www.flickr.com)
 
 **Bash Hackers Wiki.** http://wiki.bash-hackers.org
 
