@@ -102,8 +102,8 @@ See the [contribution guide](CONTRIBUTING.md) for more information.
 ## Uninstall
 
 ```sh
-sudo rm $(which ntenvs)
-rm -r ${HOME}/.cache/ntenvs
+sudo rm "$(which ntenvs)"
+rm -r "${HOME}/.cache/ntenvs"
 ```
 
 ## Acknowledgment
