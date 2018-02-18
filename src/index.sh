@@ -3,8 +3,6 @@
 # Authors:
 #   * Miguel Angel Rivera Notararigo <ntrrgx@gmail.com>
 
-NTENVS_VERSION="0.1.0"
-
 ntenvs() {
   if [ $# -eq 0 ]; then
     ntenvs_help
@@ -84,8 +82,4 @@ Subcommands:
   templates, tmpl, t
     $(ntenvs_templates --description)
 EOF
-}
-
-ntenvs_version() {
-  echo "NtEnvs v${NTENVS_VERSION}"
 }
