@@ -12,11 +12,7 @@ and this project adheres to [Semantic Versioning](http://semver.org/spec/v2.0.0.
 
 - Basic project structure
 - `containers` subcommand
-- `containers disk-image` subcommand
 - `containers rootfs` subcommand
-- `languages` subcommand
-- `projects` subcommand
-- `templates` subcommand
 - Travis CI integration
 - Better Code Hub integration
 - Codacy integration

@@ -1,6 +1,6 @@
 <p align="center">
   <img alt="NtEnvsjs"
-    src="https://farm5.staticflickr.com/4766/25403022337_b504926d70_m_d.jpg"/>
+    src="https://farm5.staticflickr.com/4766/25403022337_ec5c7117f0_m_d.jpg"/>
 </p>
 
 <p align="center">
@@ -37,13 +37,50 @@ P.S. I know that I can't say all this things using high level tools, but in a ne
 ## Features
 
 * Containers images management.
-* Programming languages versions management.
+  * RootFS containers
+
+<!--
+* Programming languages version management.
 * Projects scaffolding.
-* Set of useful templates as config file and other files like that.
+* Set of useful templates.
+-->
 
 ## Install
 
+Dependencies:
+
+* `wget`
+
+### Binary
+
+```sh
+wget -c 'https://goo.gl/bRwqGN' -O /tmp/ntenvs
+sudo cp /tmp/ntenvs /usr/bin/ntenvs
+sudo chmod +x /usr/bin/ntenvs
+```
+
+Actually, `/usr/bin/` is not mandatory, you can put **NtEnvs** anywhere you want (remember, if it isn't in `PATH` you can't use `ntenvs` without specifying the path).
+
+### From the source
+
+Build dependencies:
+
+* `git`
+* `make`
+
+```sh
+git clone https://github.com/ntrrg/ntenvs.git
+cd ntenvs
+make
+sudo make install
+make clean
+```
+
 ## Usage
+
+## Contributing
+
+See the [contribution guide](CONTRIBUTING.md) for more information.
 
 ## Use instead
 
@@ -63,6 +100,11 @@ P.S. I know that I can't say all this things using high level tools, but in a ne
 * [virtualenv](https://pypi.python.org/pypi/virtualenv)
 
 ## Uninstall
+
+```sh
+sudo rm $(which ntenvs)
+rm -r ${HOME}/.cache/ntenvs
+```
 
 ## Acknowledgment
 

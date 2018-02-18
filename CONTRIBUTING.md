@@ -1,14 +1,16 @@
 # Contributing Guide
 
+Any contribution means implicitly that you accept the [code of conduct](CODE_OF_CONDUCT.md) from this project.
+
 ## As user
 
-You can help just using this software and giving some feedback as is described in [this section](#as-tester), if you feel uncomfortable with that, just sent an [email](mailto:ntrrgx@gmail.com?Subject=NtEnvs:%20) with this structure:
+You can help just using this software and giving some feedback as is described in [this section](#as-tester), if you feel uncomfortable with that, just sent an [email](mailto:ntrrgx@gmail.com?Subject=NtEnvs:%20) with this template:
 
 **Comment:**
 
 To: `ntrrgx@gmail.com`
 
-Subject: `NtEnvs: Comment`
+Subject: `NtEnvs: Short comment description`
 
 Body: Free
 
@@ -16,7 +18,7 @@ Body: Free
 
 To: `ntrrgx@gmail.com`
 
-Subject: `NtEnvs: Simple issue description`
+Subject: `NtEnvs: Short issue description`
 
 Body:
 
@@ -26,6 +28,10 @@ help you show how you get the unexpected behavior.
 ```
 
 ## As tester
+
+If you can do some stuff in the terminal, you are familiar with the [GitHub Issue Tracker](https://github.com/ntrrg/ntenvs/issues), and you found some issue or just want to share a recommendation, you already are a tester.
+
+https://asciinema.org/docs/installation
 
 https://asciinema.org/
 
