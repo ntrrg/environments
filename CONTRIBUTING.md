@@ -4,7 +4,7 @@ Any contribution means implicitly that you accept the [code of conduct](CODE_OF_
 
 ## As user
 
-You can help just using this software and giving some feedback as is described in [this section](#as-tester), if you feel uncomfortable with that, just sent an [email](mailto:ntrrgx@gmail.com?Subject=NtEnvs:%20) with this template:
+You can help just using this software and giving some feedback as is described in [this section](#as-tester), if you feel uncomfortable with that, just send an [email](mailto:ntrrgx@gmail.com?Subject=NtEnvs:%20) with this template:
 
 **Comment:**
 
